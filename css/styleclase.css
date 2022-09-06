@@ -1,0 +1,129 @@
+/* SINTAXSIS 
+
+selector{
+
+    propiedad: valor;
+    propiedad: valor;
+
+*/
+
+/* class */
+
+.colorrojo{
+
+    color:red;
+
+}
+
+.Enlace{
+
+    color:rgb(255, 247, 0);
+
+}
+
+
+/* TODOS MIS H1 VAN A TENER ESTE COLOR */
+h1{
+
+    color:aqua;
+    font-size: 5rem; /* Unidades de medida */
+    text-align: center; /* Alineacion de texto */
+
+}
+
+/* id */
+
+#fondogris{ 
+
+    background-color: gray; /* Fondos */
+    background-image: none;
+    background-repeat: calc();
+    background-position: 0%;
+    background-size: auto;
+}
+
+
+
+body{ /* Index */
+    font-family: 'Merriweather', serif; /* Tipografia local */
+
+
+}
+
+
+/* Bem */
+
+.principal__titulo3{
+    font-size: 20px;
+    background-color: aquamarine
+
+
+}
+
+.principal__titulo3--amarillo{
+font-size: 5cm
+
+}
+.principal__titulo{
+    border: dashed;
+
+
+}
+/* MENU Y SUBMENU */
+ul{
+    list-style: none;
+    font-size: 0;
+
+
+}
+li{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+
+
+
+}
+
+/* pasar por encima */
+/* :hover */
+
+/* Flexbox */
+.padre-flex{
+    display:flex ;
+    flex-direction: row; /* Predeterminado */
+    flex-direction: row-reverse; /* Cambia orden */
+    flex-direction: column;
+    flex-direction: column-reverse;/* Cambia orden */
+    flex-wrap: nowrap; /* Todo entre en una sola fila */
+    flex-wrap: wrap; /* Mantener el tamaño oroginal y si no entra alguno lo pone debajo */
+    flex-wrap: wrap-reverse;/* Si no hay lugar se seguiria arriba */
+    flex-flow: row wrap;/* Abreviacion de los dos */
+    justify-content: flex-start;/* Posicion en inicio */ 
+    justify-content: flex-end; /* Posicion en final */
+    justify-content: center; /* En el centro */
+    justify-content: space-between;/* Primer y ultimo elemento pegado al borde y el espaciado entre los items sea el mismo */
+    justify-content: space-around;/*  */
+    justify-content: space-evenly;/* Todos los espaciados sean todos iguales */
+    align-items: stretch;/* Llenar todo el contenedor */
+    align-items: flex-start;/* Van para el inicio */
+    align-items: flex-end; /* Van para abajo del todo */
+    align-items: center;/* Van al centro */
+    align-items: baseline;/* Alinear la base sin importar el tamaño de cada uno de los hijos */
+    align-content: stretch;/* Ocupar todo el tamaño */
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;/* Separa los hijos del borde */
+    align-content: space-evenly;
+
+}
+
+.hijo-flex{
+    order: 0; /* Cambio de orden entre todos los hijos */
+    
+
+
+
+}

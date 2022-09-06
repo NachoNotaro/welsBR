@@ -1,0 +1,433 @@
+/* INDEX.HTML */
+
+
+
+body{
+    margin: 0%;
+
+
+}
+
+header{
+    background-color: rgba(39, 39, 39, 0.528);
+    background-size: cover;
+    border-bottom: solid 2px;
+    text-align: center;
+    
+}
+
+
+
+.menuPrincipal ul li{
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    position: relative;
+  
+    
+}
+
+.ulindexnav{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+}
+
+.Logo{
+    padding: 0;
+    width: 125px;
+} 
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.propiedadesindex{
+    background-image: url(../images/puertomadero2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 4cm;
+    text-align: center;
+    border-bottom: solid 2px;
+    filter: grayscale(100%);
+    transition: all 1.5s;
+
+}
+
+
+
+.propiedadesindex:hover{
+    filter: none;
+
+}
+
+.contactoindex{
+    background-image: url(../images/oficina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 4cm;
+    text-align: center;
+    border-bottom: solid 2px;
+    background-attachment: fixed;
+    
+ 
+}
+
+
+.galeriaindex{
+    background-image: url(../images/depto.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 4cm;
+    border-bottom: solid 2px;
+    background-attachment: fixed;
+
+}
+
+
+.nosotrosindex{
+    background-image: url(../images/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 4cm;
+    background-attachment: fixed; 
+
+
+}
+
+footer{
+    background-color: rgba(39, 39, 39, 0.528);
+    background-size: cover;
+    border-top: solid 2px;
+    text-align: center;
+    border-bottom: solid 2px;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+   
+}
+
+.ulindexfooter{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+
+
+}
+
+
+
+.instagram img{
+    width: 50px;
+
+}
+
+.twitter img{
+    width: 50px;
+
+}
+
+.facebook img{
+    width: 50px;
+
+}
+.linkedin img{
+    width: 50px;
+
+}
+
+.yt img{
+    width: 50px;
+
+}
+
+/* Propiedades.html */
+/* Estaria mucho mas ordenado y prolijo con flexbox y grids */
+
+.mainpropiedades{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+
+}
+
+.section1prop{
+    border: solid 4px;
+    align-content: center;
+    
+}
+
+.section1prop div{
+    width: 250px;
+    display: inline;
+    
+
+}
+
+
+.img1p{
+    width: 250px;
+
+}
+.img2p{
+    width: 250px;
+
+}
+.img3p{
+    width: 250px;
+
+}
+
+.section2prop{
+    border: solid 4px;
+    align-content: center;
+}
+
+.section2prop div{
+    display: inline;
+
+
+}
+.img4p{
+    width: 250px;
+
+}
+.img5p{
+    width: 250px;
+
+}
+.img6p{
+    width: 250px;
+
+}
+
+.section3prop{
+    border: solid 4px;
+    align-content: center;
+}
+
+.section3prop div{
+    display: inline;
+
+
+}
+.img7p{
+    width: 250px;
+
+}
+.img8p{
+    width: 250px;
+
+}
+.img9p{
+    width: 250px;
+
+}
+
+.section4prop{
+    border: solid 4px;
+   
+}
+
+.section4prop div{
+    display: inline;
+
+}
+.img10p{
+
+    width: 250px;
+}
+.img11p{
+    width: 250px;
+
+}
+.img12p{
+    width: 250px;
+
+}
+
+
+/* Galeria.html */
+/* Va a estar mucho mas ordenado y proligo usando flexbox y grids */
+.tituloG{
+    text-align: center;
+}
+
+
+.sectiongaleria div{
+    display: inline;
+
+}
+
+.imagen1G{
+    width: 250px;
+    
+}
+.imagen2G{
+    width: 250px;
+
+}
+.imagen3G{
+    width: 250px;
+
+}
+.imagen4G{
+    width: 250px;
+
+}
+.imagen5G{
+    width: 250px;
+
+}
+.imagen6G{
+    width: 250px;
+
+}
+.imagen7G{
+    width: 250px;
+
+}
+.imagen8G{
+    width: 250px;
+
+}
+.imagen9G{
+    width: 250px;
+
+}
+.imagen10G{
+    width: 250px;
+
+}
+
+/* nostros.html */
+/* Estaria mucho mas ordenado y prolijo con flexbox y grids */
+
+.mainnosotros{
+    text-align: center;
+
+}
+
+.section1nos{
+    border: solid 4px;
+
+}
+
+.section1nos div{
+    display: inline;
+}
+
+.img1n{
+    width: 250px;
+    
+    
+}
+.section2nos{
+    border: solid 4px;
+
+}
+
+.img2n{
+    width: 250px;
+
+}
+
+.section3nos{
+    border: solid 4px;
+
+}
+
+.img3n{
+    width: 250px;
+
+}
+
+.section4nos{
+    border: solid 4px;
+
+}
+
+.img4n{
+    width: 250px;
+
+}
+
+/* contacto.html */
+/* Estaria mucho mejor con flexbox y grids */
+.titulocontacto{
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
+.fieldset{
+    margin: 25px;
+
+
+}
+
+.tituloformulariocontacto{
+    text-align: center;
+
+}
+
+.formulariocontacto{
+    text-align: center;
+    
+
+}
+
+.mailcontacto{
+    display: block;
+
+
+}
+
+.textomailcontacto{
+    display: block;
+    position: relative;
+    left: 325px;
+}
+
+.mensajecontacto{
+    display: block;
+
+
+}
+
+.textocontacto{
+    display: block;
+    position: relative;
+    left: 325px;
+    
+}
+
+.enviarcontacto{
+    margin: 10px;
+
+}
+
+.eliminarcontacto{
+    margin: 0px;
+
+}
