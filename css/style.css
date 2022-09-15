@@ -13,7 +13,9 @@ header{
     background-size: cover;
     border-bottom: solid 2px;
     text-align: center;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -23,7 +25,7 @@ header{
     padding: 0px 15px 0px 15px;
     text-align: center;
     position: relative;
-  
+    
     
 }
 
@@ -57,17 +59,18 @@ a{
     padding: 4cm;
     text-align: center;
     border-bottom: solid 2px;
-    filter: grayscale(100%);
-    transition: all 1.5s;
+
+/*     filter: grayscale(100%);
+    transition: all 1.5s; */
 
 }
 
 
 
-.propiedadesindex:hover{
+/* .propiedadesindex:hover{
     filter: none;
 
-}
+} */
 
 .contactoindex{
     background-image: url(../images/oficina.jpg);
@@ -114,13 +117,17 @@ footer{
     border-top: solid 2px;
     text-align: center;
     border-bottom: solid 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 
 }
 
 .footer ul li{
     display: inline-block;
     position: relative;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 5px 0px 20px;
    
 }
 
@@ -157,6 +164,90 @@ footer{
     width: 50px;
 
 }
+
+
+/* Media queires index */
+@media (max-width: 480px){
+    header{
+        flex-direction: column;
+
+    }
+    .propiedadesindex{
+        padding: 2cm;
+    }
+    .contactoindex{
+        padding: 2cm;
+    }
+    .nosotrosindex{
+        padding: 2cm;
+    }
+    .galeriaindex{
+        padding: 2cm;
+    }
+
+    .instagram img{
+        width: 30px;
+    
+    }
+    
+    .twitter img{
+        width: 30px;
+    
+    }
+    
+    .facebook img{
+        width: 30px;
+    
+    }
+    .linkedin img{
+        width: 30px;
+    
+    }
+    
+    .yt img{
+        width: 30px;
+    
+    }
+
+    .logofooter{
+        width: 100px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+/*     .instagram img{
+        width: 50px;
+    
+    }
+    
+    .twitter img{
+        width: 50px;
+    
+    }
+    
+    .facebook img{
+        width: 50px;
+    
+    }
+    .linkedin img{
+        width: 50px;
+    
+    }
+    
+    .yt img{
+        width: 50px;
+    
+    }
+
+    .logofooter{
+        width: 150px;
+    }
+    
+ */
+}
+
+    
 
 /* Propiedades.html */
 /* Estaria mucho mas ordenado y prolijo con flexbox y grids */
@@ -330,21 +421,16 @@ p{
 
 .section1nos{
     border: solid 4px;
-
-}
-
-.section1nos div{
-    display: inline;
+    display: flex;
 }
 
 .img1n{
     width: 250px;
-    
-    
 }
 .section2nos{
     border: solid 4px;
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .img2n{
@@ -354,7 +440,7 @@ p{
 
 .section3nos{
     border: solid 4px;
-
+    display: flex;
 }
 
 .img3n{
@@ -364,7 +450,8 @@ p{
 
 .section4nos{
     border: solid 4px;
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .img4n{
@@ -372,6 +459,28 @@ p{
 
 }
 
+@media (max-width: 480px){
+    .section1nos{
+        display: flex;
+        flex-direction: column;
+    }
+    .section2nos{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3nos{
+        display: flex;
+        flex-direction: column;
+    }
+    .section4nos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px){
+
+}
 /* contacto.html */
 /* Estaria mucho mejor con flexbox y grids */
 .titulocontacto{
