@@ -60,17 +60,17 @@ a{
     text-align: center;
     border-bottom: solid 2px;
 
-/*     filter: grayscale(100%);
-    transition: all 1.5s; */
+    filter: grayscale(100%);
+    transition: all 1.5s;
 
 }
 
 
 
-/* .propiedadesindex:hover{
+.propiedadesindex:hover{
     filter: none;
 
-} */
+}
 
 .contactoindex{
     background-image: url(../images/oficina.jpg);
@@ -83,6 +83,13 @@ a{
     background-attachment: fixed;
     
  
+    filter: grayscale(100%);
+    transition: all 1.5s;
+}
+
+.contactoindex:hover{
+    filter: none;
+
 }
 
 
@@ -96,8 +103,14 @@ a{
     border-bottom: solid 2px;
     background-attachment: fixed;
 
+    filter: grayscale(100%);
+    transition: all 1.5s;
 }
 
+.galeriaindex:hover{
+    filter: none;
+
+}
 
 .nosotrosindex{
     background-image: url(../images/nosotros.jpg);
@@ -108,6 +121,12 @@ a{
     padding: 4cm;
     background-attachment: fixed; 
 
+    filter: grayscale(100%);
+    transition: all 1.5s;
+}
+
+.nosotrosindex:hover{
+    filter: none;
 
 }
 
@@ -167,7 +186,7 @@ footer{
 
 
 /* Media queires index */
-@media (max-width: 480px){
+@media screen and (max-width: 576px){
     header{
         flex-direction: column;
 
@@ -459,7 +478,7 @@ p{
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 576px){
     .section1nos{
         display: flex;
         flex-direction: column;
@@ -478,7 +497,7 @@ p{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 768px){
 
 }
 /* contacto.html */
