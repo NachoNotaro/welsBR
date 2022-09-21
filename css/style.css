@@ -1,7 +1,6 @@
 /* INDEX.HTML */
 
 
-
 body{
     margin: 0%;
 
@@ -13,9 +12,10 @@ header{
     background-size: cover;
     border-bottom: solid 2px;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+   /*  display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    
 }
 
 
@@ -44,7 +44,7 @@ header{
 
 
 
-a{
+.linksindexnacho{
     text-decoration: none;
     color: black;
 
@@ -60,17 +60,17 @@ a{
     text-align: center;
     border-bottom: solid 2px;
 
-    filter: grayscale(100%);
-    transition: all 1.5s;
+/*     filter: grayscale(100%);
+    transition: all 1.5s; */
 
 }
 
 
 
-.propiedadesindex:hover{
+/* .propiedadesindex:hover{
     filter: none;
 
-}
+} */
 
 .contactoindex{
     background-image: url(../images/oficina.jpg);
@@ -83,14 +83,14 @@ a{
     background-attachment: fixed;
     
  
-    filter: grayscale(100%);
-    transition: all 1.5s;
+/*     filter: grayscale(100%);
+    transition: all 1.5s; */
 }
 
-.contactoindex:hover{
+/* .contactoindex:hover{
     filter: none;
 
-}
+} */
 
 
 .galeriaindex{
@@ -102,16 +102,16 @@ a{
     padding: 4cm;
     border-bottom: solid 2px;
     background-attachment: fixed;
-
+/* 
     filter: grayscale(100%);
-    transition: all 1.5s;
+    transition: all 1.5s; */
 }
 
-.galeriaindex:hover{
+/* .galeriaindex:hover{
     filter: none;
 
 }
-
+ */
 .nosotrosindex{
     background-image: url(../images/nosotros.jpg);
     background-repeat: no-repeat;
@@ -121,14 +121,14 @@ a{
     padding: 4cm;
     background-attachment: fixed; 
 
-    filter: grayscale(100%);
-    transition: all 1.5s;
+/*     filter: grayscale(100%);
+    transition: all 1.5s; */
 }
 
-.nosotrosindex:hover{
+/* .nosotrosindex:hover{
     filter: none;
 
-}
+} */
 
 footer{
     background-color: rgba(39, 39, 39, 0.528);
@@ -270,6 +270,11 @@ footer{
 
 /* Propiedades.html */
 /* Estaria mucho mas ordenado y prolijo con flexbox y grids */
+.card {
+    width: 100%;
+
+}
+
 
 .mainpropiedades{
     text-align: center;
