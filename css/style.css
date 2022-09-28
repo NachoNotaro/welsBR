@@ -12,9 +12,7 @@ header{
     background-size: cover;
     border-bottom: solid 2px;
     text-align: center;
-   /*  display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
+
     
 }
 
@@ -60,17 +58,10 @@ header{
     text-align: center;
     border-bottom: solid 2px;
 
-/*     filter: grayscale(100%);
-    transition: all 1.5s; */
 
 }
 
 
-
-/* .propiedadesindex:hover{
-    filter: none;
-
-} */
 
 .contactoindex{
     background-image: url(../images/oficina.jpg);
@@ -83,14 +74,8 @@ header{
     background-attachment: fixed;
     
  
-/*     filter: grayscale(100%);
-    transition: all 1.5s; */
 }
 
-/* .contactoindex:hover{
-    filter: none;
-
-} */
 
 
 .galeriaindex{
@@ -102,16 +87,10 @@ header{
     padding: 4cm;
     border-bottom: solid 2px;
     background-attachment: fixed;
-/* 
-    filter: grayscale(100%);
-    transition: all 1.5s; */
-}
-
-/* .galeriaindex:hover{
-    filter: none;
 
 }
- */
+
+
 .nosotrosindex{
     background-image: url(../images/nosotros.jpg);
     background-repeat: no-repeat;
@@ -121,14 +100,10 @@ header{
     padding: 4cm;
     background-attachment: fixed; 
 
-/*     filter: grayscale(100%);
-    transition: all 1.5s; */
+
 }
 
-/* .nosotrosindex:hover{
-    filter: none;
 
-} */
 
 footer{
     background-color: rgba(39, 39, 39, 0.528);
@@ -139,50 +114,26 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 }
 
 .footer ul li{
     display: inline-block;
     position: relative;
-    padding: 0px 5px 0px 20px;
-   
+    padding: 0px 5px 0px 20px; 
 }
 
-.ulindexfooter{
+.footer ul{
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
-
-
 }
 
 
-
-.instagram img{
+.footer ul li img{
     width: 50px;
-
 }
 
-.twitter img{
-    width: 50px;
 
-}
-
-.facebook img{
-    width: 50px;
-
-}
-.linkedin img{
-    width: 50px;
-
-}
-
-.yt img{
-    width: 50px;
-
-}
 
 
 /* Media queires index */
@@ -234,7 +185,7 @@ footer{
 }
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 /*     .instagram img{
         width: 50px;
     
@@ -264,7 +215,7 @@ footer{
     }
     
  */
-}
+
 
     
 

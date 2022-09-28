@@ -1,0 +1,90 @@
+body {
+  margin: 0%; }
+
+header {
+  background-color: rgba(39, 39, 39, 0.528);
+  background-size: cover;
+  border-bottom: solid 2px;
+  text-align: center; }
+
+.Logo {
+  padding: 0;
+  width: 125px; }
+
+.linksindexnacho {
+  text-decoration: none;
+  color: black; }
+
+.propiedadesindex {
+  background-image: url(../images/puertomadero2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 4cm;
+  text-align: center;
+  border-bottom: solid 2px; }
+
+.contactoindex {
+  background-image: url(../images/oficina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 4cm;
+  text-align: center;
+  border-bottom: solid 2px;
+  background-attachment: fixed; }
+
+.galeriaindex {
+  background-image: url(../images/depto.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 4cm;
+  border-bottom: solid 2px;
+  background-attachment: fixed; }
+
+.nosotrosindex {
+  background-image: url(../images/nosotros.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 4cm;
+  background-attachment: fixed; }
+
+footer {
+  background-color: rgba(39, 39, 39, 0.528);
+  background-size: cover;
+  border-top: solid 2px;
+  text-align: center;
+  border-bottom: solid 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px; }
+  .footer ul li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 5px 0px 20px; }
+    .footer ul li img {
+      width: 50px; }
+
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column; }
+  .propiedadesindex {
+    padding: 2cm; }
+  .contactoindex {
+    padding: 2cm; }
+  .nosotrosindex {
+    padding: 2cm; }
+  .galeriaindex {
+    padding: 2cm; }
+  .footer ul li img {
+    width: 30px; } }
