@@ -1,518 +1,95 @@
-/* INDEX.HTML */
+    /* galeria */
 
-
-body{
-    margin: 0%;
-
-
+/* .sectiongaleria{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(6, 200px);
+    gap: 10px 10px;
+    grid-template-areas: 
+        "imagen1 imagen1 imagen1 imagen2 imagen2"
+        "imagen3 imagen3 imagen4 imagen2 imagen2"
+        "imagen3 imagen3 imagen4 imagen5 imagen5"
+        "imagen6 imagen7 imagen7 imagen7 imagen7"
+        "imagen6 imagen7 imagen7 imagen7 imagen7"
+        "imagen8 imagen8 imagen8 imagen9 imagen9";
+    justify-content: center;
+    padding: 25px;
 }
 
-header{
-    background-color: rgba(39, 39, 39, 0.528);
+.imgG{
+    grid-area: imagen1;
+    background-image: url(../images/fotodptoG.jpg);
+    background-position: center;
     background-size: cover;
-    border-bottom: solid 2px;
-    text-align: center;
-
-    
 }
-
-
-
-.menuPrincipal ul li{
-    display: inline-block;
-    padding: 0px 15px 0px 15px;
-    text-align: center;
-    position: relative;
-    
-    
-}
-
-.ulindexnav{
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    
-
-}
-
-.Logo{
-    padding: 0;
-    width: 125px;
-} 
-
-
-
-.linksindexnacho{
-    text-decoration: none;
-    color: black;
-
-}
-
-.propiedadesindex{
-    background-image: url(../images/puertomadero2.jpg);
+.imgG2{
+    grid-area: imagen2;
+    background-image: url(../images/fotodptoG2.jpeg);
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    padding: 4cm;
-    text-align: center;
-    border-bottom: solid 2px;
-
-
 }
-
-
-
-.contactoindex{
-    background-image: url(../images/oficina.jpg);
+.imgG3{
+    grid-area: imagen3;
+    background-image: url(../images/fotodptoG3.jpg);
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 4cm;
-    text-align: center;
-    border-bottom: solid 2px;
-    background-attachment: fixed;
-    
- 
 }
-
-
-
-.galeriaindex{
-    background-image: url(../images/depto.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
+.imgG4{
+    grid-area: imagen4;
+    background-image: url(../images/fotodptoG4.jpg);
+    background-position: center;
     background-size: cover;
-    text-align: center;
-    padding: 4cm;
-    border-bottom: solid 2px;
-    background-attachment: fixed;
-
 }
-
-
-.nosotrosindex{
-    background-image: url(../images/nosotros.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
+.imgG5{
+    grid-area: imagen5;
+    background-image: url(../images/fotodptoG5.jpg);
+    background-position: center;
     background-size: cover;
-    text-align: center;
-    padding: 4cm;
-    background-attachment: fixed; 
-
-
 }
-
-
-
-footer{
-    background-color: rgba(39, 39, 39, 0.528);
+.imgG6{
+    grid-area: imagen6;
+    background-image: url(../images/fotodptoG6.jpg);
+    background-position: center;
     background-size: cover;
-    border-top: solid 2px;
-    text-align: center;
-    border-bottom: solid 2px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
-
-.footer ul li{
-    display: inline-block;
-    position: relative;
-    padding: 0px 5px 0px 20px; 
+.imgG7{
+    grid-area: imagen7;
+    background-image: url(../images/fotodptoG7.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
-.footer ul{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
+.imgG8{
+    grid-area: imagen8;
+    background-image: url(../images/fotodptoG8.jpg);
+    background-position: center;
+    background-size: cover;
 }
+.imgG9{
+    grid-area: imagen9;
+    background-image: url(../images/fotodptoG9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imgG10{
+    grid-area: imagen;
+    background-image: url(../images/fotodptoG10.jpg);
+    background-position: center;
+    background-size: cover;
+} */
 
+/* Vista tablet */
+/* @media only screen and (min-width: 768px) and (max-width:1023px) {
 
-.footer ul li img{
-    width: 50px;
+    
+} */
+
+/* Vista mobile */
+/* @media only screen and (max-width: 767px){
+    .sectiongaleria{
+        grid-template-columns: (5, 50px);
+    }
 
 }
-
-
-
-
-/* Media queires index */
-@media screen and (max-width: 576px){
-    header{
-        flex-direction: column;
-
-    }
-    .propiedadesindex{
-        padding: 2cm;
-    }
-    .contactoindex{
-        padding: 2cm;
-    }
-    .nosotrosindex{
-        padding: 2cm;
-    }
-    .galeriaindex{
-        padding: 2cm;
-    }
-
-    .instagram img{
-        width: 30px;
-    
-    }
-    
-    .twitter img{
-        width: 30px;
-    
-    }
-    
-    .facebook img{
-        width: 30px;
-    
-    }
-    .linkedin img{
-        width: 30px;
-    
-    }
-    
-    .yt img{
-        width: 30px;
-    
-    }
-
-    .logofooter{
-        width: 100px;
-    }
-}
-
-
-/* @media screen and (max-width: 768px) {
-/*     .instagram img{
-        width: 50px;
-    
-    }
-    
-    .twitter img{
-        width: 50px;
-    
-    }
-    
-    .facebook img{
-        width: 50px;
-    
-    }
-    .linkedin img{
-        width: 50px;
-    
-    }
-    
-    .yt img{
-        width: 50px;
-    
-    }
-
-    .logofooter{
-        width: 150px;
-    }
-    
  */
 
 
-    
-
-/* Propiedades.html */
-/* Estaria mucho mas ordenado y prolijo con flexbox y grids */
-.card{
-    width: 100%;
-
-}
-
-
-.mainpropiedades{
-    text-align: center;
-
-}
-
-p{
-    text-align: center;
-
-}
-
-.section1prop{
-    border: solid 4px;
-    align-content: center;
-    
-}
-
-.section1prop div{
-    width: 250px;
-    display: inline;
-    
-
-}
-
-
-.img1p{
-    width: 250px;
-
-}
-.img2p{
-    width: 250px;
-
-}
-.img3p{
-    width: 250px;
-
-}
-
-.section2prop{
-    border: solid 4px;
-    align-content: center;
-}
-
-.section2prop div{
-    display: inline;
-
-
-}
-.img4p{
-    width: 250px;
-
-}
-.img5p{
-    width: 250px;
-
-}
-.img6p{
-    width: 250px;
-
-}
-
-.section3prop{
-    border: solid 4px;
-    align-content: center;
-}
-
-.section3prop div{
-    display: inline;
-
-
-}
-.img7p{
-    width: 250px;
-
-}
-.img8p{
-    width: 250px;
-
-}
-.img9p{
-    width: 250px;
-
-}
-
-.section4prop{
-    border: solid 4px;
-   
-}
-
-.section4prop div{
-    display: inline;
-
-}
-.img10p{
-
-    width: 250px;
-}
-.img11p{
-    width: 250px;
-
-}
-.img12p{
-    width: 250px;
-
-}
-
-
-/* Galeria.html */
-/* Va a estar mucho mas ordenado y proligo usando flexbox y grids */
-.tituloG{
-    text-align: center;
-}
-
-
-.sectiongaleria div{
-    display: inline;
-
-}
-
-.imagen1G{
-    width: 250px;
-    
-}
-.imagen2G{
-    width: 250px;
-
-}
-.imagen3G{
-    width: 250px;
-
-}
-.imagen4G{
-    width: 250px;
-
-}
-.imagen5G{
-    width: 250px;
-
-}
-.imagen6G{
-    width: 250px;
-
-}
-.imagen7G{
-    width: 250px;
-
-}
-.imagen8G{
-    width: 250px;
-
-}
-.imagen9G{
-    width: 250px;
-
-}
-.imagen10G{
-    width: 250px;
-
-}
-
-/* nostros.html */
-/* Estaria mucho mas ordenado y prolijo con flexbox y grids */
-
-.mainnosotros{
-    text-align: center;
-
-}
-
-.section1nos{
-    border: solid 4px;
-    display: flex;
-}
-
-.img1n{
-    width: 250px;
-}
-.section2nos{
-    border: solid 4px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.img2n{
-    width: 250px;
-
-}
-
-.section3nos{
-    border: solid 4px;
-    display: flex;
-}
-
-.img3n{
-    width: 250px;
-
-}
-
-.section4nos{
-    border: solid 4px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.img4n{
-    width: 250px;
-
-}
-
-@media (max-width: 576px){
-    .section1nos{
-        display: flex;
-        flex-direction: column;
-    }
-    .section2nos{
-        display: flex;
-        flex-direction: column;
-    }
-    .section3nos{
-        display: flex;
-        flex-direction: column;
-    }
-    .section4nos{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 768px){
-
-}
-/* contacto.html */
-/* Estaria mucho mejor con flexbox y grids */
-.titulocontacto{
-    text-align: center;
-    text-decoration-line: underline;
-
-}
-
-.fieldset{
-    margin: 25px;
-
-
-}
-
-.tituloformulariocontacto{
-    text-align: center;
-
-}
-
-.formulariocontacto{
-    text-align: center;
-    
-
-}
-
-.mailcontacto{
-    display: block;
-
-
-}
-
-.textomailcontacto{
-    display: block;
-    position: relative;
-    left: 325px;
-}
-
-.mensajecontacto{
-    display: block;
-
-
-}
-
-.textocontacto{
-    display: block;
-    position: relative;
-    left: 325px;
-    
-}
-
-.enviarcontacto{
-    margin: 10px;
-
-}
-
-.eliminarcontacto{
-    margin: 0px;
-
-}

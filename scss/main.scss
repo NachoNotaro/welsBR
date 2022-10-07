@@ -9,10 +9,10 @@ header{
     text-align: center;
 }
 
-/* .Logo{
+.Logo{
     padding: 0;
     width: 125px;
-} */
+}
 
 .linksindexnacho{
     text-decoration: none;
@@ -126,4 +126,37 @@ $imagenes:(
             }
         }
     }
+}
+
+.card{
+    width: 100%;
+}
+
+.mainpropiedades{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.tituloG{
+    text-align: center;
+}
+
+.mainnosotros{
+    text-align: center;
+}
+
+.titulocontacto{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.fieldset{
+    margin: 25px;
+}
+
+.tituloformulariocontacto{
+    text-align: center;
 }
