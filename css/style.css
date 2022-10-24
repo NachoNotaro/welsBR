@@ -1,6 +1,6 @@
     /* galeria */
 
-/* .sectiongaleria{
+.sectiongaleria{
     display: grid;
     grid-template-columns: repeat(5, 200px);
     grid-template-rows: repeat(6, 200px);
@@ -75,7 +75,7 @@
     background-image: url(../images/fotodptoG10.jpg);
     background-position: center;
     background-size: cover;
-} */
+}
 
 /* Vista tablet */
 /* @media only screen and (min-width: 768px) and (max-width:1023px) {
