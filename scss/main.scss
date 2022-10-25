@@ -29,7 +29,6 @@ header{
     text-align: center;
     border-bottom: solid 2px;
 }
-/* Extend */
 .contactoindex{
     @extend .propiedadesindex;
     background-image: url(../images/oficina.jpg);
@@ -104,7 +103,6 @@ footer{
         }
     }
 }
-/* MIXIN */
 @mixin sizes($tamano){
     width: $tamano;
 }
