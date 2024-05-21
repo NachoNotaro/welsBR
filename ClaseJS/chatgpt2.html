@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visor de Imágenes</title>
+<style>
+    .image-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .image-container .image {
+        margin: 0 10px;
+        text-align: center;
+    }
+    .image-container img {
+        width: 30%;
+        cursor: pointer;
+    }
+    .selected-image {
+        margin-top: 20px;
+        text-align: center;
+    }
+    header {
+        text-align: center;
+        background-color: antiquewhite;
+    }
+
+    .product-list {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .product-list-item {
+        margin-bottom: 10px;
+    }
+
+    .remove-button {
+        background-color: #ff0000;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <header><img src="/JavaScript/imagenes/logo-wels.png" alt=""></header>
+    <h2 style="text-align: center;">Haga click en los productos que desee comprar</h2>
+    <div class="image-container">
+        <div class="image">
+            <img src="/JavaScript/imagenes/Copia de Colonia Lavanda-min.jpg" alt="Imagen 4">
+            <div class="description">
+                <h3>Imagen 4</h3>
+                <p>Descripción de la Imagen 4.</p>
+                <p class="quantity">Cantidad: 50</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="/JavaScript/imagenes/Copia de Colonia Heno-min.jpg" alt="Imagen 5">
+            <div class="description">
+                <h3>Imagen 5</h3>
+                <p>Descripción de la Imagen 5.</p>
+                <p class="quantity">Cantidad: 50</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="/JavaScript/imagenes/Copia de Colonia Inglesa-min.jpg" alt="Imagen 6">
+            <div class="description">
+                <h3>Imagen 6</h3>
+                <p>Descripción de la Imagen 6.</p>
+                <p class="quantity">Cantidad: 50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="selected-image">
+        <h2>Imagen Seleccionada</h2>
+        <div id="selected-image"></div>
+    </div>
+
+    <div class="product-list">
+        <h2>Productos Seleccionados</h2>
+        <ul id="selected-products"></ul>
+        <button onclick="buy()">Comprar</button>
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('.image img');
+        const selectedImageContainer = document.getElementById('selected-image');
+        const selectedProductsContainer = document.getElementById('selected-products');
+
+        images.forEach(image => {
+            image.addEventListener('click', function() {
+                const selectedImage = this.cloneNode(true);
+                selectedImage.style.width = this.width + 'px'; // Set width dynamically
+                selectedImageContainer.appendChild(selectedImage);
+
+                const productName = this.parentNode.querySelector('h3').textContent;
+                const productPrice = 10; // Assuming a price of $10 for each product
+
+                const listItem = document.createElement('li');
+                listItem.textContent = `${productName} - $${productPrice}`;
+                listItem.classList.add('product-list-item');
+
+                const removeButton = document.createElement('button');
+                removeButton.textContent = 'Eliminar';
+                removeButton.classList.add('remove-button');
+                removeButton.onclick = function() {
+                    selectedProductsContainer.removeChild(listItem);
+                };
+
+                listItem.appendChild(removeButton);
+                selectedProductsContainer.appendChild(listItem);
+            });
+        });
+
+        function buy() {
+            const selectedProducts = document.querySelectorAll('.product-list-item');
+            console.log('¡Gracias por tu compra!');
+            console.log('Productos Seleccionados:');
+            selectedProducts.forEach(product => {
+                console.log(product.textContent);
+            });
+        }
+    </script>
+
+</body>
+</html>
+
